@@ -30,7 +30,7 @@ cm run script \
 	--execution_mode=test \
 	--device=cuda \
 	--quiet \
-	--precision=float16
+	--precision=float32
 ```
 *Note that if you want to use the [latest automation recipes](https://docs.mlcommons.org/inference) for MLPerf (CM scripts),
  you should simply reload mlcommons@cm4mlops without checkout and clean CM cache as follows:*

@@ -12,6 +12,7 @@
     "giturlparse": "0.12.0",
     "huggingface-hub": "0.25.1",
     "idna": "3.10",
+    "ijson": "3.3.0",
     "importlib_metadata": "8.5.0",
     "Jinja2": "3.1.4",
     "lightning-utilities": "0.11.7",
@@ -40,6 +41,7 @@
     "pip": "22.0.2",
     "platformdirs": "4.3.6",
     "psutil": "6.0.0",
+    "pyarrow": "17.0.0",
     "pybind11": "2.13.6",
     "pycuda": "2024.1.2",
     "python-dateutil": "2.9.0.post0",
@@ -68,6 +70,7 @@
     "urllib3": "2.2.3",
     "wcwidth": "0.2.13",
     "wheel": "0.44.0",
+    "XlsxWriter": "3.2.0",
     "zipp": "3.20.2"
   }
 }
