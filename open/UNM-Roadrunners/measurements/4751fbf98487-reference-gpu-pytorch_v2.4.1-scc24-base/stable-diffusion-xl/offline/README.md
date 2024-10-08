@@ -18,7 +18,7 @@ pip install -U cmind
 
 cm rm cache -f
 
-cm pull repo mlcommons@cm4mlops --checkout=769bf6afb15058ab9699c8b708fc484cc9c7b7fb
+cm pull repo mlcommons@cm4mlops --checkout=1e8b4448a1c1a440b1194a605fc23a182371eae1
 
 cm run script \
 	--tags=run-mlperf,inference,_r4.1-dev,_short,_scc24-base \
@@ -30,7 +30,8 @@ cm run script \
 	--execution_mode=test \
 	--device=cuda \
 	--quiet \
-	--precision=float32
+	--precision=float16 \
+	--devices=cuda:1
 ```
 *Note that if you want to use the [latest automation recipes](https://docs.mlcommons.org/inference) for MLPerf (CM scripts),
  you should simply reload mlcommons@cm4mlops without checkout and clean CM cache as follows:*
