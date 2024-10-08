@@ -2,7 +2,8 @@ This repository contains automation scripts and MLPerf Inference results collect
 
 ## Maintainers
 [Arjun Suresh](https://github.com/arjunsuresh)
+
 [Anandhu Sooraj](https://github.com/anandhu-eng)
 
 ## Acknowledgements
-The CM automation framework was developed by Grigori Fursin and Arjun Suresh. For more information, please visit the [CM framework development page](https://github.com/mlcommons/cm4mlops/).
+The CM automation framework was developed by Grigori Fursin and Arjun Suresh. For more information, please visit the [CM framework development page](https://github.com/mlcommons/cm4mlops/tree/mlperf-inference).
