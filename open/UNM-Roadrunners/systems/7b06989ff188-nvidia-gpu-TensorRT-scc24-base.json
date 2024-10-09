@@ -31,7 +31,7 @@
   "status": "available",
   "submitter": "UNM-Roadrunners",
   "sw_notes": "Automated by MLCommons CM v2.4.0. ",
-  "system_name": "roadrunner",
+  "system_name": "7b06989ff188",
   "system_type": "datacenter",
   "system_type_detail": "edge server"
 }
