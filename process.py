@@ -333,5 +333,3 @@ with open(out_path, "w") as f:
     f.write(out_html)
 
 #print(out_html)
-
-
