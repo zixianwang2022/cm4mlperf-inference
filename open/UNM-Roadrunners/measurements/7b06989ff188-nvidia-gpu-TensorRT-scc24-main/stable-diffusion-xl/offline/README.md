@@ -4,10 +4,11 @@ This experiment is generated using the [MLCommons Collective Mind automation fra
 
 ## Host platform
 
-* OS version: Linux-5.14.0-427.37.1.el9_4.x86_64-x86_64-with-glibc2.35
+* OS version: Linux-5.14.0-427.37.1.el9_4.x86_64-x86_64-with-glibc2.29
 * CPU version: x86_64
-* Python version: 3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]
-* MLCommons CM version: 3.0.1
+* Python version: 3.8.10 (default, Sep 11 2024, 16:02:53) 
+[GCC 9.4.0]
+* MLCommons CM version: 2.4.0
 
 ## CM Run Command
 
@@ -18,20 +19,18 @@ pip install -U cmind
 
 cm rm cache -f
 
-cm pull repo mlcommons@cm4mlops --checkout=1e8b4448a1c1a440b1194a605fc23a182371eae1
+cm pull repo mlcommons@cm4mlops --checkout=422342f628cb22ce005e8bf3a0d887ad5aa6b120
 
 cm run script \
-	--tags=run-mlperf,inference,_r4.1-dev,_short,_scc24-base \
+	--tags=run-mlperf,inference,_r4.1-dev,_short,_scc24-main \
 	--model=sdxl \
-	--implementation=reference \
-	--framework=pytorch \
+	--implementation=nvidia \
+	--framework=tensorrt \
 	--category=datacenter \
 	--scenario=Offline \
 	--execution_mode=test \
 	--device=cuda \
-	--quiet \
-	--precision=float16 \
-	--devices=cuda:1
+	--quiet
 ```
 *Note that if you want to use the [latest automation recipes](https://docs.mlcommons.org/inference) for MLPerf (CM scripts),
  you should simply reload mlcommons@cm4mlops without checkout and clean CM cache as follows:*
@@ -45,13 +44,13 @@ cm rm cache -f
 
 ## Results
 
-Platform: 4751fbf98487-reference-gpu-pytorch_v2.4.1-scc24-base
+Platform: 7b06989ff188-nvidia-gpu-TensorRT-scc24-main
 
-Model Precision: fp32
+Model Precision: int8
 
 ### Accuracy Results 
-`CLIP_SCORE`: `15.17022`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
-`FID_SCORE`: `235.68988`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
+`CLIP_SCORE`: `15.52758`, Required accuracy for closed division `>= 31.68632` and `<= 31.81332`
+`FID_SCORE`: `239.84604`, Required accuracy for closed division `>= 23.01086` and `<= 23.95008`
 
 ### Performance Results 
-`Samples per second`: `0.666646`
+`Samples per second`: `1.61013`
