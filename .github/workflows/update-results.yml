@@ -42,6 +42,7 @@ jobs:
         git config --global user.email "$EMAIL"
         #git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN_TOKEN }}@github.com/${{ github.repository }}
         git add -f summary_results.json
+        echo -e '```' > temp
         tail -n 16 checker_log.txt >> temp
         echo -e '\n```\n' >> temp
         cat temp | cat - README.md > temp1
