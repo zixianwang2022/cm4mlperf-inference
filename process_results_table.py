@@ -438,10 +438,10 @@ for availability in availabilities:
 
 extra_scripts = """
 <script type="text/javascript">
-var sortcolumnindex = 4, perfsortorder = 1;
+var sortcolumnindex = 6, perfsortorder = 1;
 </script>
 
-<!--<script type="text/javascript" src="javascripts/tablesorter.js"></script>-->
+<script type="text/javascript" src="javascripts/tablesorter.js"></script>
 <script type="text/javascript" src="javascripts/results_tablesorter.js"></script>
 <script type="text/javascript" src="javascripts/results_charts.js"></script>
 """
