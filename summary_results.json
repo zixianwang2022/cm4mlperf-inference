@@ -104,7 +104,7 @@
     "Code": "https://github.com/mlcommons/https://github.com/mlcommons/submissions_inference_results_v4.1/tree/main/open/MLCommons/code",
     "Unique ID (e.g. for Audit)": "datacenter/open/MLCommons/41485dfb4f36-reference-gpu-pytorch_v2.4.1-scc24-base_cu124/stable-diffusion-xl",
     "ColorKey": "availableMLCommons",
-    "Performance_Result": 0.373501,
+    "Performance_Result": 0.375138,
     "Performance_Units": "Samples/s"
   },
   {
@@ -226,7 +226,7 @@
     "UsedModel": "stable-diffusion-xl",
     "Model": "stable-diffusion-xl",
     "Scenario": "Offline",
-    "Accuracy": "CLIP_SCORE: 15.478164181113243  FID_SCORE: 232.1787311146868",
+    "Accuracy": "CLIP_SCORE: 15.478164181113243  FID_SCORE: 232.17873111420926",
     "Nodes": 1,
     "Processor": "Intel(R) Xeon(R) w7-2495X",
     "host_processors_per_node": 1,
@@ -248,7 +248,7 @@
     "Code": "https://github.com/mlcommons/https://github.com/mlcommons/submissions_inference_results_v4.1/tree/main/open/MLCommons/code",
     "Unique ID (e.g. for Audit)": "datacenter/open/MLCommons/97c3ec750d0e-nvidia-gpu-TensorRT-scc24-base/stable-diffusion-xl",
     "ColorKey": "availableMLCommons",
-    "Performance_Result": 1.13424,
+    "Performance_Result": 1.14052,
     "Performance_Units": "Samples/s"
   },
   {
@@ -366,6 +366,42 @@
     "Category": "open",
     "Suite": "edge",
     "System": "gh_action",
+    "Platform": "gh_action-reference-gpu-pytorch_v2.4.1-cu124",
+    "UsedModel": "stable-diffusion-xl",
+    "Model": "stable-diffusion-xl",
+    "Scenario": "Offline",
+    "Accuracy": "CLIP_SCORE: 15.18544016778469  FID_SCORE: 235.69504308101006",
+    "Nodes": 1,
+    "Processor": "Intel(R) Xeon(R) w7-2495X",
+    "host_processors_per_node": 1,
+    "host_processor_core_count": 24,
+    "Accelerator": "NVIDIA GeForce RTX 4090",
+    "a#": 2,
+    "Location": "open/MLCommons/results/gh_action-reference-gpu-pytorch_v2.4.1-cu124/stable-diffusion-xl/offline",
+    "Software": "pytorch v2.4.1",
+    "operating_system": "Ubuntu 22.04 (linux-6.2.0-39-generic-glibc2.35)",
+    "Notes": "Automated by MLCommons CM v2.3.9. ",
+    "compliance": 1,
+    "errors": 0,
+    "version": "v4.1",
+    "inferred": 0,
+    "has_power": false,
+    "weight_data_types": "fp32",
+    "p#": 1,
+    "Details": "https://github.com/mlcommons/https://github.com/mlcommons/submissions_inference_results_v4.1/tree/main/open/MLCommons/results/gh_action-reference-gpu-pytorch_v2.4.1-cu124",
+    "Code": "https://github.com/mlcommons/https://github.com/mlcommons/submissions_inference_results_v4.1/tree/main/open/MLCommons/code",
+    "Unique ID (e.g. for Audit)": "edge/open/MLCommons/gh_action-reference-gpu-pytorch_v2.4.1-cu124/stable-diffusion-xl",
+    "ColorKey": "availableMLCommons",
+    "Performance_Result": 0.345763,
+    "Performance_Units": "Samples/s"
+  },
+  {
+    "ID": "4.1-0012",
+    "Submitter": "MLCommons",
+    "Availability": "available",
+    "Category": "open",
+    "Suite": "edge",
+    "System": "gh_action",
     "Platform": "gh_action-reference-gpu-pytorch_v2.4.1-default_config",
     "UsedModel": "gptj-99",
     "Model": "gptj-99",
@@ -396,7 +432,7 @@
     "Performance_Units": "Tokens/s"
   },
   {
-    "ID": "4.1-0012",
+    "ID": "4.1-0013",
     "Submitter": "MLCommons",
     "Availability": "available",
     "Category": "open",
@@ -432,7 +468,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0013",
+    "ID": "4.1-0014",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -468,7 +504,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0014",
+    "ID": "4.1-0015",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
