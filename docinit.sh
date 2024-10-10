@@ -18,6 +18,8 @@ repo_name=${INFERENCE_RESULTS_REPO_NAME:-inference_results_${INFERENCE_RESULTS_V
 ver_num=$(cat dbversion)
 let ver_num++
 echo "ver_num=$ver_num" > dbversion
+git add dbversion
+git commit -m "Updated dbversion"
 if [ ! -e docs/javascripts/config.js ]; then
     if [ -n "${INFERENCE_RESULTS_VERSION}" ]; then
          echo "const results_version=\"${INFERENCE_RESULTS_VERSION}\";" > docs/javascripts/config.js;
