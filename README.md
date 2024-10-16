@@ -1,19 +1,19 @@
 ```
-[2024-10-12 06:45:29,981 submission_checker1.py:2936 INFO] Results=21, NoResults=0, Power Results=0
-[2024-10-12 06:45:29,981 submission_checker1.py:2943 INFO] ---
-[2024-10-12 06:45:29,981 submission_checker1.py:2944 INFO] Closed Results=0, Closed Power Results=0
+[2024-10-16 10:38:18,552 submission_checker1.py:2936 INFO] Results=23, NoResults=0, Power Results=0
+[2024-10-16 10:38:18,552 submission_checker1.py:2943 INFO] ---
+[2024-10-16 10:38:18,552 submission_checker1.py:2944 INFO] Closed Results=0, Closed Power Results=0
 
-[2024-10-12 06:45:29,981 submission_checker1.py:2949 INFO] Open Results=21, Open Power Results=0
+[2024-10-16 10:38:18,552 submission_checker1.py:2949 INFO] Open Results=23, Open Power Results=0
 
-[2024-10-12 06:45:29,981 submission_checker1.py:2954 INFO] Network Results=0, Network Power Results=0
+[2024-10-16 10:38:18,552 submission_checker1.py:2954 INFO] Network Results=0, Network Power Results=0
 
-[2024-10-12 06:45:29,981 submission_checker1.py:2959 INFO] ---
-[2024-10-12 06:45:29,981 submission_checker1.py:2961 INFO] Systems=20, Power Systems=0
-[2024-10-12 06:45:29,981 submission_checker1.py:2962 INFO] Closed Systems=0, Closed Power Systems=0
-[2024-10-12 06:45:29,981 submission_checker1.py:2967 INFO] Open Systems=20, Open Power Systems=0
-[2024-10-12 06:45:29,981 submission_checker1.py:2972 INFO] Network Systems=0, Network Power Systems=0
-[2024-10-12 06:45:29,981 submission_checker1.py:2977 INFO] ---
-[2024-10-12 06:45:29,981 submission_checker1.py:2982 INFO] SUMMARY: submission looks OK
+[2024-10-16 10:38:18,552 submission_checker1.py:2959 INFO] ---
+[2024-10-16 10:38:18,552 submission_checker1.py:2961 INFO] Systems=22, Power Systems=0
+[2024-10-16 10:38:18,552 submission_checker1.py:2962 INFO] Closed Systems=0, Closed Power Systems=0
+[2024-10-16 10:38:18,552 submission_checker1.py:2967 INFO] Open Systems=22, Open Power Systems=0
+[2024-10-16 10:38:18,552 submission_checker1.py:2972 INFO] Network Systems=0, Network Power Systems=0
+[2024-10-16 10:38:18,552 submission_checker1.py:2977 INFO] ---
+[2024-10-16 10:38:18,552 submission_checker1.py:2982 INFO] SUMMARY: submission looks OK
 INFO:root:       ! call "postprocess" from /home/runner/CM/repos/mlcommons@cm4mlops/script/run-mlperf-inference-submission-checker/customize.py
 
 ```
@@ -41,3 +41,5 @@ INFO:root:       ! call "postprocess" from /home/runner/CM/repos/mlcommons@cm4ml
 | 18 | UNM-Roadrunners | available      | open       | datacenter   | 7b06989ff188 | 7b06989ff188-nvidia-gpu-TensorRT-scc24-base                | stable-diffusion-xl | stable-diffusion-xl | Offline    |  1.61853   | CLIP_SCORE: 15.527581945061684  FID_SCORE: 239.84603575864136 |                 1 | INTEL(R) XEON(R) PLATINUM 8580 |                          2 |                          60 | NVIDIA H100 NVL          |                       4 | open/UNM-Roadrunners/results/7b06989ff188-nvidia-gpu-TensorRT-scc24-base/stable-diffusion-xl/offline          | TensorRT       | Ubuntu 20.04 (linux-5.14.0-427.37.1.el9_4.x86_64-glibc2.31) | Automated by MLCommons CM v2.4.0. |            1 |        0 | v4.1      |          0 | False       | Samples/s | int8                |
 | 19 | UNM-Roadrunners | available      | open       | datacenter   | 4751fbf98487 | 4751fbf98487-reference-gpu-pytorch_v2.4.1-scc24-main       | stable-diffusion-xl | stable-diffusion-xl | Offline    |  0.665545  | CLIP_SCORE: 13.906862080842256  FID_SCORE: 84.21082273715388  |                 1 | INTEL(R) XEON(R) PLATINUM 8580 |                          2 |                          60 | NVIDIA H100 NVL          |                       1 | open/UNM-Roadrunners/results/4751fbf98487-reference-gpu-pytorch_v2.4.1-scc24-main/stable-diffusion-xl/offline | pytorch v2.4.1 | Ubuntu 22.04 (linux-5.14.0-427.37.1.el9_4.x86_64-glibc2.35) | Automated by MLCommons CM v3.0.1. |            1 |        0 | v4.1      |          0 | False       | Samples/s | fp32                |
 | 20 | UNM-Roadrunners | available      | open       | datacenter   | roadrunner   | roadrunner-nvidia-gpu-TensorRT-scc24-base                  | stable-diffusion-xl | stable-diffusion-xl | Offline    |  1.60725   | CLIP_SCORE: 15.527581945061684  FID_SCORE: 239.84603550136694 |                 1 | INTEL(R) XEON(R) PLATINUM 8580 |                          2 |                          60 | NVIDIA H100 NVL          |                       4 | open/UNM-Roadrunners/results/roadrunner-nvidia-gpu-TensorRT-scc24-base/stable-diffusion-xl/offline            | TensorRT       | Ubuntu 20.04 (linux-5.14.0-427.37.1.el9_4.x86_64-glibc2.31) | Automated by MLCommons CM v2.4.0. |            1 |        0 | v4.1      |          0 | False       | Samples/s | int8                |
+| 21 | Dreambrook_Team | available      | open       | edge         | a65eca5827dc | a65eca5827dc-reference-cpu-pytorch_v2.4.1-default_config   | bert-99             | bert-99             | Offline    |  3.19276   | F1: 90.87487229720105                                         |                 1 | AMD EPYC-Milan Processor       |                         32 |                           1 | nan                      |                       0 | open/Dreambrook_Team/results/a65eca5827dc-reference-cpu-pytorch_v2.4.1-default_config/bert-99/offline         | pytorch v2.4.1 | Ubuntu 22.04 (linux-6.1.112-1.el9.elrepo.x86_64-glibc2.35)  | Automated by MLCommons CM v3.2.1. |            1 |        0 | v4.1      |          0 | False       | Samples/s | fp32                |
+| 22 | Dreambrook_Team | available      | open       | edge         | 666dfb9811e4 | 666dfb9811e4-reference-gpu-pytorch-cu124                   | bert-99             | bert-99             | Offline    | 85.4467    | F1: 90.87601905331469                                         |                 1 | AMD EPYC-Milan Processor       |                         16 |                           1 | GRID A100X-20C           |                       1 | open/Dreambrook_Team/results/666dfb9811e4-reference-gpu-pytorch-cu124/bert-99/offline                         | pytorch        | Ubuntu 22.04 (linux-6.1.112-1.el9.elrepo.x86_64-glibc2.35)  | Automated by MLCommons CM v3.2.2. |            1 |        0 | v4.1      |          0 | False       | Samples/s | fp32                |
