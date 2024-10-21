@@ -38,6 +38,7 @@
     "pip": "22.0.2",
     "platformdirs": "4.3.6",
     "psutil": "6.0.0",
+    "pyarrow": "17.0.0",
     "pybind11": "2.13.6",
     "pycuda": "2024.1.2",
     "pydantic": "2.9.2",
@@ -64,6 +65,7 @@
     "typing_extensions": "4.12.2",
     "tzdata": "2024.2",
     "urllib3": "2.2.3",
-    "wheel": "0.44.0"
+    "wheel": "0.44.0",
+    "XlsxWriter": "3.2.0"
   }
 }
