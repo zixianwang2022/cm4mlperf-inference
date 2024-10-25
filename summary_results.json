@@ -1297,6 +1297,42 @@
   },
   {
     "ID": "4.1-0037",
+    "Submitter": "NTUHPC",
+    "Availability": "available",
+    "Category": "open",
+    "Suite": "datacenter",
+    "System": "8297ae0eca20",
+    "Platform": "8297ae0eca20-nvidia-gpu-TensorRT-scc24-main",
+    "UsedModel": "stable-diffusion-xl",
+    "Model": "stable-diffusion-xl",
+    "Scenario": "Offline",
+    "Accuracy": "CLIP_SCORE: 15.704176977276802  FID_SCORE: 233.5689613089101",
+    "Nodes": 1,
+    "Processor": "AMD EPYC 9654 96-Core Processor",
+    "host_processors_per_node": 2,
+    "host_processor_core_count": 96,
+    "Accelerator": "NVIDIA H100 PCIe",
+    "a#": 4,
+    "Location": "open/NTUHPC/results/8297ae0eca20-nvidia-gpu-TensorRT-scc24-main/stable-diffusion-xl/offline",
+    "Software": "TensorRT",
+    "operating_system": "Ubuntu 20.04 (linux-6.5.0-27-generic-glibc2.31)",
+    "Notes": "Automated by MLCommons CM v2.4.0. ",
+    "compliance": 1,
+    "errors": 0,
+    "version": "v4.1",
+    "inferred": 0,
+    "has_power": false,
+    "weight_data_types": "int8",
+    "p#": 2,
+    "Details": "https://github.com/mlcommons/submissions_inference_4.0/tree/main/open/NTUHPC/results/8297ae0eca20-nvidia-gpu-TensorRT-scc24-main",
+    "Code": "https://github.com/mlcommons/submissions_inference_4.0/tree/main/open/NTUHPC/code",
+    "Unique ID (e.g. for Audit)": "datacenter/open/NTUHPC/8297ae0eca20-nvidia-gpu-TensorRT-scc24-main/stable-diffusion-xl",
+    "ColorKey": "availableNTUHPC",
+    "Performance_Result": 2.66695,
+    "Performance_Units": "Samples/s"
+  },
+  {
+    "ID": "4.1-0038",
     "Submitter": "SYSU-LPC-Expects",
     "Availability": "available",
     "Category": "open",
@@ -1332,7 +1368,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0038",
+    "ID": "4.1-0039",
     "Submitter": "SYSU-LPC-Expects",
     "Availability": "available",
     "Category": "open",
@@ -1368,7 +1404,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0039",
+    "ID": "4.1-0040",
     "Submitter": "SYSU-LPC-Expects",
     "Availability": "available",
     "Category": "open",
@@ -1404,7 +1440,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0040",
+    "ID": "4.1-0041",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -1440,7 +1476,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0041",
+    "ID": "4.1-0042",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -1476,7 +1512,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0042",
+    "ID": "4.1-0043",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -1512,7 +1548,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0043",
+    "ID": "4.1-0044",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -1548,7 +1584,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0044",
+    "ID": "4.1-0045",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -1584,7 +1620,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0045",
+    "ID": "4.1-0046",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -1620,7 +1656,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0046",
+    "ID": "4.1-0047",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -1656,7 +1692,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0047",
+    "ID": "4.1-0048",
     "Submitter": "UNM-Roadrunners",
     "Availability": "available",
     "Category": "open",
@@ -1692,7 +1728,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0048",
+    "ID": "4.1-0049",
     "Submitter": "scc104-ZJUSCT",
     "Availability": "available",
     "Category": "open",
@@ -1728,7 +1764,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0049",
+    "ID": "4.1-0050",
     "Submitter": "scc104-ZJUSCT",
     "Availability": "available",
     "Category": "open",
@@ -1764,7 +1800,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0050",
+    "ID": "4.1-0051",
     "Submitter": "scc107",
     "Availability": "available",
     "Category": "open",
@@ -1800,7 +1836,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0051",
+    "ID": "4.1-0052",
     "Submitter": "scc112",
     "Availability": "available",
     "Category": "open",
@@ -1836,7 +1872,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0052",
+    "ID": "4.1-0053",
     "Submitter": "scc122",
     "Availability": "available",
     "Category": "open",
@@ -1872,7 +1908,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0053",
+    "ID": "4.1-0054",
     "Submitter": "scc123-Shanxi_University",
     "Availability": "available",
     "Category": "open",
@@ -1908,7 +1944,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0054",
+    "ID": "4.1-0055",
     "Submitter": "scc123-Shanxi_University",
     "Availability": "available",
     "Category": "open",
@@ -1944,7 +1980,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0055",
+    "ID": "4.1-0056",
     "Submitter": "scc131",
     "Availability": "available",
     "Category": "open",
@@ -1980,7 +2016,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0055",
+    "ID": "4.1-0056",
     "Submitter": "scc131",
     "Availability": "available",
     "Category": "open",
@@ -2016,7 +2052,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "4.1-0056",
+    "ID": "4.1-0057",
     "Submitter": "scc131",
     "Availability": "available",
     "Category": "open",
@@ -2052,7 +2088,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0056",
+    "ID": "4.1-0057",
     "Submitter": "scc131",
     "Availability": "available",
     "Category": "open",
@@ -2088,7 +2124,7 @@
     "Performance_Units": "Latency (ms)"
   },
   {
-    "ID": "4.1-0057",
+    "ID": "4.1-0058",
     "Submitter": "scc132",
     "Availability": "available",
     "Category": "open",
@@ -2124,7 +2160,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0058",
+    "ID": "4.1-0059",
     "Submitter": "scc135",
     "Availability": "available",
     "Category": "open",
@@ -2160,7 +2196,7 @@
     "Performance_Units": "Samples/s"
   },
   {
-    "ID": "4.1-0059",
+    "ID": "4.1-0060",
     "Submitter": "scc135",
     "Availability": "available",
     "Category": "open",
