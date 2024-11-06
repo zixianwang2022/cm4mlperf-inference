@@ -32,7 +32,7 @@ jobs:
 
     - name: Run MLPerf Inference Submission Checker and generate results summary
       run: |
-        cm run script --tags=run,mlperf,inference,submission,checker,_short-run --src_version=v4.1 --adr.submission-checker-src.tags=_repo.https://github.com/gateoverflow/inference,_branch.improve_result_generation --quiet --extra_args=" --skip-extra-files-in-root-check"  --submission_dir=./ > >(tee -a out.txt) 2> >(tee -a checker_log.txt >&2)
+        cm run script --tags=run,mlperf,inference,submission,checker,_short-run --src_version=v4.1 --adr.inference-src.tags=_branch.dev --repo_name=${{ github.event.repository.name }} --repo_owner=${{ github.repository_owner }} --repo_branch=${{ github.ref_name }} --quiet --extra_args=" --skip-extra-files-in-root-check"  --submission_dir=./ > >(tee -a out.txt) 2> >(tee -a checker_log.txt >&2)
         cm run script --tags=convert,from-csv,to-md --csv_file=summary.csv --md_file=README.md
 
         USER="gateoverflow-admin"
@@ -40,7 +40,6 @@ jobs:
 
         git config --global user.name "$USER"
         git config --global user.email "$EMAIL"
-        #git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN_TOKEN }}@github.com/${{ github.repository }}
         git add -f summary_results.json
         echo -e '```' > temp
         tail -n 16 checker_log.txt >> temp
